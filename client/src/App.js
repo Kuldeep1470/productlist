@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div>
       <Routes>
-        <Route exact path="*" element={<Pannal isLoggedIn={false} />} />
+        <Route exact path="*" element={<Pannal isLoggedIn={true} />} />
       </Routes>
     </div>
   );
